@@ -30,6 +30,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  carousel_slider: ^4.2.1
+  shared_preferences: ^2.0.0
+  web_socket_channel: ^2.1.0
+  open_street_map_search_and_pick: ^0.0.4
+  image_picker: ^0.8.4+4
+  http: ^0.13.4
+  
+
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -39,6 +48,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -60,12 +70,29 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/nike1.png
-    - assets/nike2.png
-    - assets/logo.png
-    - assets/nike3.png
-    - assets/nike4.png
-    - assets/nike5.png
+    - assets/nike1_1.png
+    - assets/nike1_2.png
+    - assets/nike1_3.png
+    - assets/nike1_4.png
+    - assets/nike2_1.png
+    - assets/nike2_2.png
+    - assets/nike2_3.png
+    - assets/nike2_4.png
+    - assets/banner.png
+    - assets/nike3_1.png
+    - assets/nike3_2.png
+    - assets/nike3_3.png
+    - assets/nike3_4.png
+    - assets/nike4_1.png
+    - assets/nike4_2.png
+    - assets/nike4_3.png
+    - assets/nike4_4.png
+    - assets/nike5_1.png
+    - assets/nike5_2.png
+    - assets/nike5_3.png
+    - assets/nike5_4.png
+    - assets/userpic.jpg
+    - assets/vinz.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
